@@ -17,3 +17,61 @@ html{
 *, *::before,*::after {
   box-sizing: inherit;
 }
+
+header {
+  position: relative;
+  background-color: red;
+}
+
+.nav {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 8em;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav-lable {
+  background-color: #ccc;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
