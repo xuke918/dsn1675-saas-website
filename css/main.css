@@ -79,3 +79,10 @@ header {
 a {
   text-decoration: none;
 }
+
+.section {
+  background-color: #cccccc;
+}
+.section-mid {
+  background-color: #afafaf;
+}
