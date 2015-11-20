@@ -28,12 +28,18 @@ header {
   position: absolute;
   right: 0;
   top: 100%;
-  width: 8em;
+  width: 15.6em;
   margin: 0;
   padding: 0;
   list-style-type: none;
   background-color: #ccc;
 }
+
+.nav a:hover {
+  background-color: red;
+  color: #fff;
+}
+
 
 .nav-check {
   position: absolute;
@@ -49,7 +55,7 @@ header {
   cursor: pointer;
   font-size: 1.25rem;
   display: inline-block;
-  width: 40px;
+  width: 50px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -95,4 +101,8 @@ a {
 
 .btn {
   background-color: #c9afaf;
+}
+
+.logo {
+  width: 30%;
 }
