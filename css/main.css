@@ -83,6 +83,11 @@ a {
 .section {
   background-color: #cccccc;
 }
+
 .section-mid {
   background-color: #afafaf;
+}
+
+.sec-3 {
+  background-color: #999999;
 }
