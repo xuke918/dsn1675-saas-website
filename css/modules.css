@@ -1,7 +1,7 @@
 /*!
  * Modulifier || Code released under the UNLICENSE
  * Code under other copyrights & licenses listed below.
- * http://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;accessibility;print
+ * http://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;buttons;forms;accessibility;print
  */
 
 @-moz-viewport { width: device-width; scale: 1; }
@@ -180,6 +180,134 @@ svg {
   overflow: hidden;
   min-width: 12em; /* Slightly less than 200px, responsiveness built in */
 }
+
+.link-box {
+  display: block;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.375em 0.75em 0.42em;
+  background-color: #333;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn--light {
+  background-color: #e2e2e2;
+  color: #000;
+}
+
+.btn--light:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.btn--ghost {
+  background-color: transparent;
+  border: 3px solid #333;
+  color: #000;
+}
+
+.btn--ghost:hover {
+  border-color: #000;
+}
+
+label, .label-block {
+  display: block;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label,
+.label-inline {
+  display: inline-block;
+}
+
+/*!
+ * (c) Nicolas Gallagher and Jonathan Neal of Normalize.css || MIT License
+ *     https://necolas.github.io/normalize.css/
+ */
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+/*! End Normalize.css code */
 
 a:hover, a:active {
   outline: none;
