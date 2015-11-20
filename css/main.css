@@ -20,7 +20,7 @@ html{
 
 header {
   position: relative;
-  background-color: red;
+  background-color: darkgrey;
 }
 
 .nav {
@@ -74,4 +74,8 @@ header {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+a {
+  text-decoration: none;
 }
