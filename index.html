@@ -14,9 +14,14 @@
 </head>
 <body>
 
-<header>
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a><li>
+  <li><a href="#nav">Jump to navigation</a><li>
+</ul>
+
+<header class="masthead" role="banner">
 <h1>SpeakEasy</h1>
-  <nav>
+  <nav id="nav" role="navigation">
     <input type="checkbox" class="nav-check" id="nav-check">
     <label for="nav-check" class="nav-label" >
       <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
@@ -30,7 +35,7 @@
   </nav>
 </header>
 
-<main>
+<main id="main" role="main">
   <div class="unit xs-1 s-1 island-1-2">
   <div class="island-1-2">
     <div>
@@ -64,11 +69,13 @@
 
 
 <footer class="sec-3">
+  <div role="contentinfo">
   <div class="island-1-2 text-center">
     <a class="btn" href="signup.html">GET STARTED</a>
   </div>
 <div class="island-1-2">
 <p class="text-center push-0">© 2015 SpeakEasy. All rights reserved. A SpeakEasy product. Privacy Policy | Terms of Use<a href="">Top</a></p>
+</div>
 </div>
 </footer>
 
