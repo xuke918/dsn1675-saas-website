@@ -14,9 +14,14 @@
 </head>
 <body>
 
-  <header>
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main content</a></li>
+  </ul>
+
+<header role="banner">
   <h1>SpeakEasy</h1>
-    <nav>
+    <nav id="nav">
       <input type="checkbox" class="nav-check" id="nav-check">
       <label for="nav-check" class="nav-label" >
         <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
@@ -32,7 +37,7 @@
   </header>
 
 
-<main class="gutter-1-2 push-0">
+<main id="main" role="main" class="gutter-1-2 push-0">
   <h2 class="text-center push-2">SpeakEasy will apply you the BEST price forever.</h2>
 
 <div class="grid">
@@ -130,12 +135,14 @@
 </main>
 
 <footer class="sec-3">
+  <div role="contentinfo">
   <div class="island-1-2 text-center">
     <a class="btn" href="signup.html">GET STARTED</a>
   </div>
   <div class="island-1-2">
     <p class="text-center push-0">© 2015 SpeakEasy. All rights reserved. A SpeakEasy product. Privacy Policy | Terms of Use<a href="">Top</a></p>
   </div>
+</div>
 </footer>
 
 </body>
