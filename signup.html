@@ -40,29 +40,29 @@
 <main id="main" role="main">
     <h2 class="text-center">SpeakEasy will work with you to learn.</h2>
 
-
+<form>
 <div class="grid section">
 <div class="unit xs-1 s-1 m-1 l-1 text-center">
   <h3>Sign up for your account</h3>
 
   <div>
-    <label for="usename">Choose a username: </label>
-    <input id="usename">
+    <label for="username">Choose a username: </label>
+    <input id="username" required name="username">
   </div>
 
   <div>
     <label for="passward">Choose a passward:</label>
-    <input id="passward">
+    <input id="passward" name="passward">
   </div>
 
   <div>
     <label for="retypepassward">Retype passward:</label>
-    <input id="retypepassward">
+    <input id="retypepassward" name="retypepassward">
   </div>
 
   <div>
     <label for="contact">Enter your contact email:</label>
-    <input id="contact">
+    <input id="contact" name="contact">
   </div>
 </div>
 
@@ -71,35 +71,38 @@
   <h3>Credit Cart Infotmation</h3>
     <div>
       <label for="number">Your number:</label>
-      <input id="number">
+      <input id="number" name="nmber">
     </div>
 
     <div>
       <label for="type">Card type:</label>
-      <input id="type">
+      <input id="type" name="type">
     </div>
 
     <div>
       <label for="card">Card#:</label>
-      <input id="card">
+      <input id="card" name="card">
     </div>
 
     <div>
       <label for="date">Expires on:</label>
-      <input id="date">
+      <input id="date" name="date">
     </div>
 
     <div>
       <label for="cvv">CVV number:</label>
-      <input id="cvv">
+      <input id="cvv" name="cvv">
     </div>
 </div>
 
 <div class="unit xs-1 s-1 m-1 l-1 ">
-<p class="text-center push-0">Thank you</p>
+<button class="text-centers push-0">Thank you</button>
 </div>
 </div>
 
+<input type="hidden" name="_next" value="http://xuke918.github.io/forms-demo/thanks.html">
+
+</form>
 </main>
 
 <footer class="sec-3">
