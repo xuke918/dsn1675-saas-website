@@ -28,7 +28,7 @@ header {
   position: absolute;
   right: 0;
   top: 100%;
-  width: 15.6em;
+  width: 19.5em;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -84,15 +84,16 @@ header {
 }
 
 a {
+  text-align: center;
   text-decoration: none;
 }
 
 .section {
-  background-color: #cccccc;
+  background-color: #CD553D;
 }
 
 .section-mid {
-  background-color: #afafaf;
+  background-color: #CD553D;
 }
 
 .sec-3 {
@@ -100,8 +101,9 @@ a {
 }
 
 .btn {
-  background-color: #c9afaf;
+  background-color: #F3BB53;
 }
+
 
 .logo {
   width: 30%;
@@ -111,4 +113,8 @@ a:focus, [tabindex="0"]:focus,
 input:focus, textarea:focus, button:focus {
   outline: 3px solid #ffce00;
   outline-offset: 3px;
+}
+
+.banner {
+  position: absolute;
 }
