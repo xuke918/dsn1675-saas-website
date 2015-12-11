@@ -116,5 +116,12 @@ input:focus, textarea:focus, button:focus {
 }
 
 .banner {
+  position: relative;
+  display: block;
+}
+.mash {
   position: absolute;
+  top: 2.5em;
+  text-shadow: 0.5px 0.5px #FFF;
+  display: block;
 }
