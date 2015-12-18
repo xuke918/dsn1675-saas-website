@@ -36,7 +36,7 @@ a {
 }
 
 .sec-3 {
-  background-color: #999999;
+  background-color: #F27921;
 }
 
 .btn {
@@ -45,4 +45,20 @@ a {
 
 .logo {
   width: 30%;
+}
+
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+h1 {
+  color: #fff;
+}
+
+.call {
+  color: #fff;
 }
