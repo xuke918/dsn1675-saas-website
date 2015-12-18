@@ -55,6 +55,20 @@ a {
   width: 100%;
 }
 
+.banner-tour{
+    background-image: url("../images/banner-tour.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+
+
 h1 {
   color: #fff;
 }
