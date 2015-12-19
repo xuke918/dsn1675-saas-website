@@ -63,12 +63,11 @@ a {
     width: 100%;
 }
 
+header {
+  background-color: #F27921;
+}
 
-
-
-
-
-h1 {
+.learn {
   color: #fff;
 }
 
